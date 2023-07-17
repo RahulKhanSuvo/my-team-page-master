@@ -1,0 +1,89 @@
+* {}
+
+body {
+    font-family: 'Fira Code', monospace;
+    font-family: 'PT Serif', serif;
+    font-family: 'Space Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.head-container {
+    margin-top: 100px;
+}
+
+.head-title {
+    color: #000;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.sub-title {
+    color: #000;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.detail {
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.image-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.img-content {
+    display: flex;
+
+}
+
+.img-content p {
+    writing-mode: vertical-lr;
+}
+
+.margin {
+    margin-top: 130px;
+}
+
+.name {
+    margin-top: 10px;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+main {
+    margin-top: 95px;
+    margin-left: 200px;
+    padding: 120px;
+}
+
+.image-section img {
+    width: 380px;
+    height: 550px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 115px;
+    margin-bottom: 24px;
+}
+
+.role {
+    color: #000;
+    font-family: PT Serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
