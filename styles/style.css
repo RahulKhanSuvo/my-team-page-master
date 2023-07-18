@@ -11,20 +11,20 @@ body {
 }
 
 header {
-    display: flex;
-    justify-content: space-evenly;
+    display:flex;
+    justify-content:space-around;
     align-items: center;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    
 
-}
-
-.head-container {
-    margin-top: 100px;
 }
 
 .head-title {
     color: #000;
     font-size: 2rem;
     font-weight: 700;
+    padding-right:190px;
 }
 
 .sub-title {
@@ -32,6 +32,7 @@ header {
     font-size: 2rem;
     font-weight: 600;
     text-transform: uppercase;
+    margin-bottom: 10px;
 
 }
 
@@ -39,6 +40,7 @@ header {
     color: #000;
     font-size: 1.2rem;
     font-weight: 400;
+    text-align: left;
 }
 
 .image-section {
@@ -68,7 +70,8 @@ header {
 }
 
 main {
-   
+    margin-top: 100px;
+   margin:50px;
    padding-left: 160px;
     
 }
@@ -94,10 +97,11 @@ footer p {
 @media screen and (max-width:576px) {
    header{
     flex-direction: column;
-    padding: 50px;
+    margin-top: 50px;
    }
    .head-title{
-    font-size: 1rem;
+    font-size:.9rem;
+    padding-right: 100px;
    }
    .image-section img {
     width: 170px;
@@ -107,7 +111,12 @@ footer p {
     grid-template-columns: repeat(2,1fr);
    }
    main{
-    padding-left:10px;
+    padding-left:6px;
+    margin: 0;
 
+   }
+   .head-container {
+    margin-top: 100px;
+    padding: 10px;
    }
 }
