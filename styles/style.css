@@ -1,4 +1,7 @@
-* {}
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: 'Fira Code', monospace;
@@ -41,6 +44,7 @@ header {
 .image-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    
 }
 
 .img-content {
@@ -64,9 +68,9 @@ header {
 }
 
 main {
-    margin-top: 95px;
-    margin-left: 200px;
-    padding: 120px;
+   
+   padding-left: 160px;
+    
 }
 
 .image-section img {
@@ -86,4 +90,24 @@ footer p {
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
+}
+@media screen and (max-width:576px) {
+   header{
+    flex-direction: column;
+    padding: 50px;
+   }
+   .head-title{
+    font-size: 1rem;
+   }
+   .image-section img {
+    width: 170px;
+    height: 240px;
+   }
+   .image-section{
+    grid-template-columns: repeat(2,1fr);
+   }
+   main{
+    padding-left:10px;
+
+   }
 }
